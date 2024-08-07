@@ -1,0 +1,218 @@
+[
+  {
+    "titulo": "Boxeo",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 7,
+    "totalPlazas": 12,
+    "profesor": "Prof. Tito Guiterrez",
+    "fecha": "2023-06-11",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Yoga",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 10,
+    "totalPlazas": 20,
+    "profesor": "Prof. Maria Perez",
+    "fecha": "2023-06-11",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Pilates",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 8,
+    "totalPlazas": 15,
+    "profesor": "Prof. Juan Gomez",
+    "fecha": "2023-06-11",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Zumba",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 12,
+    "totalPlazas": 20,
+    "profesor": "Prof. Ana Morales",
+    "fecha": "2023-06-12",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Crossfit",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 6,
+    "totalPlazas": 15,
+    "profesor": "Prof. Luis Rojas",
+    "fecha": "2023-06-12",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Spinning",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 10,
+    "totalPlazas": 20,
+    "profesor": "Prof. Carla Diaz",
+    "fecha": "2023-06-12",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "HIIT",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 14,
+    "totalPlazas": 20,
+    "profesor": "Prof. Juan Ortiz",
+    "fecha": "2023-06-13",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Aerobics",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 12,
+    "totalPlazas": 18,
+    "profesor": "Prof. Lucía Medina",
+    "fecha": "2023-06-13",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Body Pump",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 15,
+    "totalPlazas": 20,
+    "profesor": "Prof. Miguel Fernandez",
+    "fecha": "2023-06-13",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Kickboxing",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 8,
+    "totalPlazas": 20,
+    "profesor": "Prof. David Lopez",
+    "fecha": "2023-06-14",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Ballet Fit",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 12,
+    "totalPlazas": 15,
+    "profesor": "Prof. Laura Martinez",
+    "fecha": "2023-06-14",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "TRX",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 10,
+    "totalPlazas": 12,
+    "profesor": "Prof. Javier Jimenez",
+    "fecha": "2023-06-14",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Dance Fit",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 15,
+    "totalPlazas": 20,
+    "profesor": "Prof. Sofia Hernandez",
+    "fecha": "2023-06-15",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Core Training",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 10,
+    "totalPlazas": 20,
+    "profesor": "Prof. Roberto Torres",
+    "fecha": "2023-06-15",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Functional Training",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 5,
+    "totalPlazas": 12,
+    "profesor": "Prof. Alejandra Ruiz",
+    "fecha": "2023-06-15",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Aqua Aerobics",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 8,
+    "totalPlazas": 10,
+    "profesor": "Prof. Natalia Sanchez",
+    "fecha": "2023-06-16",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Tai Chi",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 15,
+    "totalPlazas": 20,
+    "profesor": "Prof. Pedro Alvarez",
+    "fecha": "2023-06-16",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Kettlebell",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 12,
+    "totalPlazas": 15,
+    "profesor": "Prof. Gloria Morales",
+    "fecha": "2023-06-16",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Tabata",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 10,
+    "totalPlazas": 20,
+    "profesor": "Prof. Carlos Gutierrez",
+    "fecha": "2023-06-17",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Stretching",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 8,
+    "totalPlazas": 12,
+    "profesor": "Prof. Veronica Diaz",
+    "fecha": "2023-06-17",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Power Yoga",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 15,
+    "totalPlazas": 20,
+    "profesor": "Prof. Sergio Delgado",
+    "fecha": "2023-06-17",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Capoeira",
+    "hora": "9:00 AM - 10:30 AM",
+    "plazasDisponibles": 7,
+    "totalPlazas": 10,
+    "profesor": "Prof. Andres Vargas",
+    "fecha": "2023-06-18",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Boxeo",
+    "hora": "11:00 AM - 12:30 PM",
+    "plazasDisponibles": 12,
+    "totalPlazas": 15,
+    "profesor": "Prof. Beatriz Romero",
+    "fecha": "2023-06-18",
+    "imagen": "https://via.placeholder.com/150"
+  },
+  {
+    "titulo": "Tai Chi",
+    "hora": "1:00 PM - 2:30 PM",
+    "plazasDisponibles": 9,
+    "totalPlazas": 12,
+    "profesor": "Prof. Oscar Ruiz",
+    "fecha": "2023-06-18",
+    "imagen": "https://via.placeholder.com/150"
+  }
+]

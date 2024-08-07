@@ -1,0 +1,195 @@
+[
+    {
+      "nombre": "Prof. Tito Guiterrez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Boxeo",
+      "descripcion": "Experto en boxeo con más de 15 años de experiencia. Ha entrenado a varios campeones regionales.",
+      "asignado": true
+    },
+    {
+      "nombre": "Prof. Maria Perez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Yoga",
+      "descripcion": "Instructora de yoga certificada con un enfoque en la conexión mente-cuerpo y técnicas de relajación.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Juan Gomez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Pilates",
+      "descripcion": "Especialista en Pilates con formación internacional, dedicado a mejorar la flexibilidad y la fuerza de sus alumnos.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Ana Morales",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Zumba",
+      "descripcion": "Profesora de Zumba con una energía contagiosa y coreografías dinámicas para todos los niveles.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Luis Rojas",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Crossfit",
+      "descripcion": "Entrenador de Crossfit con un enfoque en el desarrollo de la fuerza funcional y el acondicionamiento físico.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Carla Diaz",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Spinning",
+      "descripcion": "Instructora de spinning apasionada por la resistencia cardiovascular y las clases motivadoras.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Juan Ortiz",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "HIIT",
+      "descripcion": "Entrenador de HIIT conocido por sus entrenamientos intensos y efectivos que queman grasa y mejoran la resistencia.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Lucía Medina",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Aerobics",
+      "descripcion": "Instructora de aerobics con un estilo divertido y una amplia experiencia en clases grupales.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Miguel Fernandez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Body Pump",
+      "descripcion": "Especialista en Body Pump, enfocado en mejorar la fuerza y tonificación muscular a través de entrenamientos con pesas.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. David Lopez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Kickboxing",
+      "descripcion": "Entrenador de Kickboxing con una trayectoria en artes marciales y un enfoque en la técnica y el acondicionamiento físico.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Laura Martinez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Ballet Fit",
+      "descripcion": "Instructora de Ballet Fit combinando la gracia del ballet con la eficacia del fitness moderno.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Javier Jimenez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "TRX",
+      "descripcion": "Especialista en TRX, dedicado a mejorar la fuerza funcional y la estabilidad a través de entrenamientos de suspensión.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Sofia Hernandez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Dance Fit",
+      "descripcion": "Profesora de Dance Fit con un estilo vibrante y coreografías que combinan diversión y ejercicio.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Roberto Torres",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Core Training",
+      "descripcion": "Entrenador de Core Training, enfocado en fortalecer el núcleo para mejorar la postura y el rendimiento general.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Alejandra Ruiz",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Functional Training",
+      "descripcion": "Especialista en Functional Training con un enfoque en movimientos naturales y el acondicionamiento integral.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Natalia Sanchez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Aqua Aerobics",
+      "descripcion": "Instructora de Aqua Aerobics, combinando la resistencia del agua con ejercicios de bajo impacto.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Pedro Alvarez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Tai Chi",
+      "descripcion": "Experto en Tai Chi con más de 20 años de experiencia, promoviendo la meditación en movimiento y la flexibilidad.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Gloria Morales",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Kettlebell",
+      "descripcion": "Instructora de Kettlebell, enfocada en mejorar la fuerza y la resistencia a través de entrenamientos dinámicos.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Carlos Gutierrez",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Tabata",
+      "descripcion": "Entrenador de Tabata, conocido por sus sesiones intensas de entrenamiento en intervalos de alta intensidad.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Veronica Diaz",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Stretching",
+      "descripcion": "Especialista en Stretching, ayudando a sus alumnos a mejorar la flexibilidad y reducir el estrés.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Sergio Delgado",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Power Yoga",
+      "descripcion": "Instructor de Power Yoga, combinando la fuerza del yoga con ejercicios de alta intensidad.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Andres Vargas",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Capoeira",
+      "descripcion": "Experto en Capoeira, promoviendo la cultura brasileña y la mejora de la agilidad y la fuerza a través de esta danza marcial.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Beatriz Romero",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 5,
+      "disciplina": "Boxeo",
+      "descripcion": "Entrenadora de boxeo con una década de experiencia y un enfoque en el desarrollo de habilidades técnicas.",
+      "asignado": false
+    },
+    {
+      "nombre": "Prof. Oscar Ruiz",
+      "foto": "https://via.placeholder.com/150",
+      "puntuacion": 4,
+      "disciplina": "Tai Chi",
+      "descripcion": "Especialista en Tai Chi, enfocado en la meditación en movimiento y la mejora del equilibrio y la flexibilidad.",
+      "asignado": false
+    }
+  ]
+  
