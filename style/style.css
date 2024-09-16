@@ -58,10 +58,12 @@ nav li a {
 }
 
 /* Hero */
+/*//////////////////////////////////////////////////////////////////////////////*/
+
 #hero {
     position: relative;
     height: 90vh;
-    /*background-image: url('/assets/BG-hero.png');*/
+    background-image: url('/assets/BG-hero.png');
     background-color: navy;
     background-size: cover;
     background-position: center;
@@ -84,6 +86,7 @@ nav li a {
     color: white;
     font-weight: bold;
     z-index: 1;
+    margin: 0px 5rem;
 }
 
 .hero-content h2{
@@ -105,7 +108,6 @@ nav li a {
     flex: 1; /* Permitir que los form groups ocupen espacio disponible */
     min-width: 150px; /* Asegurar un ancho mínimo para los selectores */
 }
-
 
 #lupita{
     min-width: 40px;
@@ -140,7 +142,180 @@ input::placeholder {
     background-color: #e67e00; /* Más oscuro al hacer hover */
 }
 
+/* ofertas */
+
+/*//////////////////////////////////////////////////////////////////////////////*/
+
+#ofertas {
+    position: relative;
+    height: 40vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ofertas-content {
+    width: 50vw;
+    height: 30vh;
+}
+
+.ofertas-content h2 {
+    margin: 10px 10px;
+}
+
+.ofertas-content p {
+    margin: 10px 10px;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.ofertas-container {
+    position: relative; /* Permite posicionar la capa superpuesta */
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos salten a la siguiente línea si no hay espacio */
+    gap: 20px;
+    align-items: center;
+    background-image: url('/assets/ofertas-BG.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.overlay-ofertas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+    border-radius: 10px; /* Mantener el borde redondeado como el contenedor */
+    pointer-events: none; /* Permite interactuar con los elementos debajo */
+    z-index: 0; /* Asegura que el overlay esté debajo del contenido */
+}
+
+.ofertas-container button {
+    position: relative; /* Asegura que el botón esté por encima del overlay */
+    z-index: 1;
+    padding: 10px 20px;
+    background-color: #ff8c00; /* Naranja */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*destinos-de-moda*/
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+#destinos-de-moda {
+    position: relative;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.gallery {
+    flex-direction: column;
+    width: 50vw;
+}
+
+.gallery h2 {
+    margin: 10px 0;
+}
+
+.gallery p {
+    margin: 10px 0;
+    background-color: white;
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre las filas */
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espacio entre las filas */
+}
+
+.row {
+    display: flex;
+    gap: 10px; /* Espacio entre las imágenes */
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+}
+
+.image-container {
+    position: relative;
+    flex: 1;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    max-height: 250px; /* Máximo de 250px de alto */
+    object-fit: cover; /* Ajustar la imagen dentro del contenedor */
+    border-radius: 5px;
+    transition: 0.3s linear;
+}
+
+.image-container:hover img {
+    filter: brightness(0.5);
+}
+
+.image-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+    .gallery {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery {
+        width: 90vw;
+    }
+}
+
+
+/*///////*/
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
 /* Footer */
+
+/*//////////////////////////////////////////////////////////////////////////////*/
 
 footer {
     background-color: #141414;
