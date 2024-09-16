@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Inter';
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header #logo{
+        width: 10rem;
+        margin: 0 20px;
+}
+nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between; /* Separa el h1 a la izquierda y el ul al centro/derecha */
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 20px; /* Ajuste de espacio a los lados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav h1 {
+    margin: 0; /* Eliminar márgenes */
+}
+
+nav li a {
+    text-decoration: none;
+    color: #141414;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero */
+#hero {
+    position: relative;
+    height: 90vh;
+    /*background-image: url('/assets/BG-hero.png');*/
+    background-color: navy;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.hero-content h2{
+    text-align: center;
+}
+
+.hero-form {
+    display: flex;
+    flex-wrap: wrap; /* Permitir que los elementos salten a la siguiente línea si no hay espacio */
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-form .form-group {
+    flex: 1; /* Permitir que los form groups ocupen espacio disponible */
+    min-width: 150px; /* Asegurar un ancho mínimo para los selectores */
+}
+
+
+#lupita{
+    min-width: 40px;
+    max-width: 45px;
+}
+
+.hero-form input,
+.hero-form select {
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    width: 100%; 
+}
+    
+input::placeholder {
+    color: #222222; 
+    opacity: 1; 
+}
+
+.buscar-btn {
+    padding: 10px 20px;
+    background-color: #ff8c00; /* Naranja */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buscar-btn:hover {
+    background-color: #e67e00; /* Más oscuro al hacer hover */
+}
+
+/* Footer */
+
+footer {
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-top: auto; /* Para que el footer esté al final del contenido */
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+}
+
+footer .column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+    color: #c3c3c3;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    color: #c3c3c3;
+    margin-bottom: 5px;
+}
+
+footer ul li a {
+    color: #c3c3c3;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
