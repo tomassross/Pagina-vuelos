@@ -64,12 +64,14 @@ nav li a {
     position: relative;
     height: 90vh;
     background-image: url('/assets/BG-hero.png');
-    background-color: navy;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#hero h2{
+    margin: 1rem;
 }
 
 .overlay {
@@ -83,10 +85,15 @@ nav li a {
 
 .hero-content {
     position: relative;
-    color: white;
+    color: rgb(231, 231, 231);
     font-weight: bold;
     z-index: 1;
     margin: 0px 5rem;
+}
+
+.hero-content label{
+    color: rgb(0, 0, 0);
+    font-weight: 100;
 }
 
 .hero-content h2{
@@ -148,7 +155,6 @@ input::placeholder {
 
 #ofertas {
     position: relative;
-    height: 40vh;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
@@ -158,17 +164,21 @@ input::placeholder {
 
 .ofertas-content {
     width: 50vw;
-    height: 30vh;
+    margin: 2rem 0%;
 }
 
-.ofertas-content h2 {
-    margin: 10px 10px;
+.ofertas-content h2, .ofertas-content p, .gallery h2, .gallery p {
+    margin: 10px 0;
 }
 
-.ofertas-content p {
-    margin: 10px 10px;
+.ofertas-content h2, .gallery h2 {
+    font-weight: 400;
+}
+
+
+.ofertas-content p, .gallery p {
     background-color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .ofertas-container {
@@ -224,16 +234,7 @@ input::placeholder {
 .gallery {
     flex-direction: column;
     width: 50vw;
-}
-
-.gallery h2 {
-    margin: 10px 0;
-}
-
-.gallery p {
-    margin: 10px 0;
-    background-color: white;
-    font-size: 1.5rem;
+    margin: 2rem;
 }
 
 .container-fluid {
@@ -364,4 +365,3 @@ footer ul li a {
 footer ul li a:hover {
     text-decoration: underline;
 }
-
