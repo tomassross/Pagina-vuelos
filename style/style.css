@@ -1,24 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter';
 }
 
-h2{
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Estilos generales */
+h2 {
     font-size: 40px;
 }
 
-p{
+p {
     font-family: 'Inter';
 }
 
-#fakesection{
-    margin-top: 10vh;
-    margin: auto;
-    max-width: 80vw;
-}
-
+/* Estilos para el header */
 header {
     position: fixed;
     top: 0;
@@ -27,30 +28,52 @@ header {
     z-index: 100;
 }
 
-header #logo{
-        width: 10rem;
-        margin: 0 20px;
+header #logo {
+    width: 10rem;
+    margin: 0 20px;
 }
+
 nav {
     height: 10vh;
     display: flex;
-    justify-content: space-between; /* Separa el h1 a la izquierda y el ul al centro/derecha */
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
-    padding: 0 20px; /* Ajuste de espacio a los lados */
+    padding: 0 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
 }
 
-nav ul {
+/* Logo y contenedor del menú */
+#logo {
+    flex-shrink: 0;
+}
+.menu-content {
     display: flex;
     gap: 1rem;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    flex-grow: 1;
+    justify-content: space-between; /* Distribuye los elementos */
 }
 
-nav h1 {
-    margin: 0; /* Eliminar márgenes */
+.nav-list {
+    flex-grow: 1; /* Ocupa el espacio sobrante dentro de .menu-content */
+    display: flex;
+    justify-content: center; /* Centra los elementos de .nav-list */
+}
+
+.registro {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Estilos para nav-list y registro en pantallas grandes */
+.nav-list, .registro {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-list {
+    list-style-type: none;
 }
 
 nav li a {
@@ -58,30 +81,78 @@ nav li a {
     color: #c44029;
 }
 
-.nav-list {
-    margin: 0;
-    padding: 0;
+.Log-in-btn, .sign-in-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 .Log-in-btn {
-    padding: 10px 20px;
-    background-color: white; /* Fondo blanco */
-    color: #ff8c00; /* Texto naranja */
-    border: 1px solid #ff8c00; /* Borde naranja */
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    background-color: white;
+    color: #ff8c00;
+    border: 1px solid #ff8c00;
 }
 
 .sign-in-btn {
-    padding: 10px 20px;
-    background-color: #ff8c00; /* Naranja */
+    background-color: #ff8c00;
     color: white;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
 }
+
+/* Ocultar el botón hamburguesa en pantallas grandes */
+#hamburger {
+    display: none;
+}
+
+/* Estilos específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Ocultar nav-list y registro en pantallas pequeñas */
+    .nav-list, .registro {
+        display: none;
+    }
+
+    /* Mostrar el botón hamburguesa alineado a la derecha */
+    #hamburger {
+        display: block;
+        font-size: 24px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: 20px;
+    }
+
+    /* Estilos para el menú desplegable cuando está activo */
+    .menu-content.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+        z-index: 100;
+    }
+
+    /* Alinear nav-list y registro verticalmente en modo desplegable */
+    .menu-content.active .nav-list,
+    .menu-content.active .registro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    /* Estilos para los elementos de .nav-list y .registro en modo desplegado */
+    .nav-list li, .registro button {
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+
 /* Hero */
 /*//////////////////////////////////////////////////////////////////////////////*/
 

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos generales -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Estilos específicos para la página de registro -->
+    <link rel="stylesheet" href="style/registro.css">
+    <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+    <title>Skyhop - Registro</title>
+</head>
+<body>
+    <main>
+        <header>
+            <header-desktop></header-desktop>
+        </header>
+
+        <section id="registro" class="registro-section">
+            <div class="registro-container">
+                <!-- Formulario de Registro -->
+                <div class="form-container">
+                    <h2>Regístrate</h2>
+                    <form action="#" method="POST" class="registro-form">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre completo" required>
+                        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                        <button type="submit" class="sign-in-btn">Registrarse</button>
+                    </form>
+                    <div class="login-link">
+                        <p>¿Ya tienes cuenta? <a href="login.html" class="log-in-btn">Iniciar sesión</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer-component></footer-component>
+    </main>
+    <script src="/js/scripts.js"></script>
+    <script src="/components/footer/footer-component.js"></script>
+    <script src="/components/header/header-desktop.js"></script>
+</body>
+</html>

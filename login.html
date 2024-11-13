@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos generales -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Estilos específicos para la página de login -->
+    <link rel="stylesheet" href="style/login.css">
+    <link href="https://fonts.googleapis.com/css?family=Italiana" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+    <title>Skyhop - Login</title>
+</head>
+<body>
+    <main>
+        <header>
+            <header-desktop></header-desktop>
+        </header>
+
+        <section id="login" class="login-section">
+            <div class="login-container">
+                <!-- Formulario de Login -->
+                <div class="form-container">
+                    <h2>Iniciar sesión</h2>
+                    <form action="#" method="POST" class="login-form">
+                        <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                        <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                        <button type="submit" class="sign-in-btn">Acceder</button>
+                    </form>
+                    <div class="login-link">
+                        <p>¿No tienes cuenta? <a href="registro.html" class="log-in-btn">Regístrate</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer-component></footer-component>
+    </main>
+    <script src="/js/scripts.js"></script>
+    <script src="/components/footer/footer-component.js"></script>
+    <script src="/components/header/header-desktop.js"></script>
+</body>
+</html>
