@@ -1,0 +1,23 @@
+[
+    {
+        "destino": "Roma",
+        "salida": "2024-04-15",
+        "llegada": "2024-04-30",
+        "precio": "ARS 1.299.160",
+        "oferta": true
+    },
+    {
+        "destino": "Madrid",
+        "salida": "2024-05-01",
+        "llegada": "2024-05-15",
+        "precio": "ARS 1.350.260",
+        "oferta": false
+    },
+    {
+        "destino": "Paris",
+        "salida": "2024-06-10",
+        "llegada": "2024-06-25",
+        "precio": "ARS 1.500.000",
+        "oferta": true
+    }
+]
