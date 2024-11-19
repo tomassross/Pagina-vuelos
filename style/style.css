@@ -78,8 +78,21 @@ nav {
 
 nav li a {
     text-decoration: none;
-    color: #c44029;
+    color: #ff8c00;
 }
+
+nav li a:hover {
+    color: #a13b0b;
+}
+
+.sign-in-btn:hover {
+    background-color: #a13b0b;
+}
+
+.Log-in-btn:hover{
+    color: #a13b0b;
+    border: 1px solid #a13b0b;
+} 
 
 .Log-in-btn, .sign-in-btn {
     padding: 10px 20px;

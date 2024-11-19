@@ -4,20 +4,179 @@
         "salida": "2024-04-15",
         "llegada": "2024-04-30",
         "precio": "ARS 1.299.160",
-        "oferta": true
+        "oferta": true,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Roma"
     },
     {
         "destino": "Madrid",
         "salida": "2024-05-01",
         "llegada": "2024-05-15",
         "precio": "ARS 1.350.260",
-        "oferta": false
+        "oferta": false,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Madrid"
     },
     {
-        "destino": "Paris",
+        "destino": "París",
         "salida": "2024-06-10",
         "llegada": "2024-06-25",
         "precio": "ARS 1.500.000",
-        "oferta": true
+        "oferta": true,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=París"
+    },
+    {
+        "destino": "Bariloche",
+        "salida": "2024-07-05",
+        "llegada": "2024-07-20",
+        "precio": "ARS 350.000",
+        "oferta": true,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=Bariloche"
+    },
+    {
+        "destino": "Córdoba",
+        "salida": "2024-03-15",
+        "llegada": "2024-03-30",
+        "precio": "ARS 200.000",
+        "oferta": false,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=Córdoba"
+    },
+    {
+        "destino": "Mendoza",
+        "salida": "2024-08-10",
+        "llegada": "2024-08-25",
+        "precio": "ARS 220.000",
+        "oferta": true,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=Mendoza"
+    },
+    {
+        "destino": "Londres",
+        "salida": "2024-09-15",
+        "llegada": "2024-09-30",
+        "precio": "ARS 1.800.000",
+        "oferta": false,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Londres"
+    },
+    {
+        "destino": "Berlin",
+        "salida": "2024-10-01",
+        "llegada": "2024-10-15",
+        "precio": "ARS 1.750.000",
+        "oferta": true,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Berlin"
+    },
+    {
+        "destino": "Venecia",
+        "salida": "2024-11-10",
+        "llegada": "2024-11-25",
+        "precio": "ARS 1.600.000",
+        "oferta": false,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Venecia"
+    },
+    {
+        "destino": "Salta",
+        "salida": "2024-12-15",
+        "llegada": "2024-12-30",
+        "precio": "ARS 250.000",
+        "oferta": true,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=Salta"
+    },
+    {
+        "destino": "Rosario",
+        "salida": "2024-01-05",
+        "llegada": "2024-01-20",
+        "precio": "ARS 180.000",
+        "oferta": false,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=Rosario"
+    },
+    {
+        "destino": "Valencia",
+        "salida": "2024-02-10",
+        "llegada": "2024-02-25",
+        "precio": "ARS 1.400.000",
+        "oferta": true,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Valencia"
+    },
+    {
+        "destino": "Nápoles",
+        "salida": "2024-03-15",
+        "llegada": "2024-03-30",
+        "precio": "ARS 1.250.000",
+        "oferta": false,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Nápoles"
+    },
+    {
+        "destino": "Tokio",
+        "salida": "2024-04-20",
+        "llegada": "2024-05-05",
+        "precio": "ARS 2.200.000",
+        "oferta": true,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Tokio"
+    },
+    {
+        "destino": "San Carlos",
+        "salida": "2024-05-10",
+        "llegada": "2024-05-25",
+        "precio": "ARS 210.000",
+        "oferta": false,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=San+Carlos"
+    },
+    {
+        "destino": "Oslo",
+        "salida": "2024-06-15",
+        "llegada": "2024-06-30",
+        "precio": "ARS 2.300.000",
+        "oferta": true,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Oslo"
+    },
+    {
+        "destino": "Hamburgo",
+        "salida": "2024-07-05",
+        "llegada": "2024-07-20",
+        "precio": "ARS 1.550.000",
+        "oferta": false,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Hamburgo"
+    },
+    {
+        "destino": "Mar del Plata",
+        "salida": "2024-08-01",
+        "llegada": "2024-08-15",
+        "precio": "ARS 160.000",
+        "oferta": true,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=Mar+del+Plata"
+    },
+    {
+        "destino": "San Juan",
+        "salida": "2024-09-10",
+        "llegada": "2024-09-25",
+        "precio": "ARS 300.000",
+        "oferta": false,
+        "categoría": "Argentina",
+        "thumbnail": "https://via.placeholder.com/150?text=San+Juan"
+    },
+    {
+        "destino": "Venecia",
+        "salida": "2024-11-30",
+        "llegada": "2024-12-15",
+        "precio": "ARS 1.750.000",
+        "oferta": true,
+        "categoría": "Europa",
+        "thumbnail": "https://via.placeholder.com/150?text=Venecia"
     }
 ]

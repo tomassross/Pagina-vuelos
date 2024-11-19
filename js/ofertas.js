@@ -1,30 +1,34 @@
 document.addEventListener('DOMContentLoaded', function () {
-    // Ruta del archivo JSON con los datos de las ofertas
     fetch('../data/vuelos.json')
         .then(response => response.json())
         .then(data => {
-            // Contenedor donde se insertarán las tarjetas de ofertas
+            // Contenedores
             const europaContainer = document.getElementById('europaOfertas');
-            
-            data.forEach(oferta => {
-                // Crear el elemento de tarjeta
-                const card = document.createElement('div');
-                card.classList.add('card');
-                
-                // Verificar si la oferta tiene sticker de oferta
-                if (oferta.oferta) {
-                    const sticker = document.createElement('div');
-                    sticker.classList.add('sticker');
-                    sticker.textContent = 'Oferta imbatible';
-                    card.appendChild(sticker);
-                }
+            const argentinaContainer = document.getElementById('argentinaOfertas');
 
-                // Título del destino
+            // Función para crear cards
+            const createCard = (oferta) => {
+                const card = document.createElement('div');
+                card.classList.add('card', 'col-12', 'col-sm-6', 'col-md-4');
+
+                // Imagen
+                const img = document.createElement('img');
+                img.src = oferta.thumbnail;
+                img.alt = oferta.destino;
+                card.appendChild(img);
+
+                // Sticker
+                const sticker = document.createElement('div');
+                sticker.classList.add('sticker');
+                sticker.textContent = 'Oferta';
+                card.appendChild(sticker);
+
+                // Título
                 const title = document.createElement('h3');
                 title.textContent = oferta.destino;
                 card.appendChild(title);
 
-                // Fechas de salida y llegada
+                // Fechas
                 const dates = document.createElement('p');
                 dates.textContent = `Salida: ${oferta.salida} - Llegada: ${oferta.llegada}`;
                 card.appendChild(dates);
@@ -34,14 +38,21 @@ document.addEventListener('DOMContentLoaded', function () {
                 price.textContent = `Desde ${oferta.precio}`;
                 card.appendChild(price);
 
-                // Botón de reservar
+                // Botón
                 const button = document.createElement('button');
                 button.textContent = 'Reservar';
                 card.appendChild(button);
 
-                // Insertar la tarjeta en el contenedor
-                europaContainer.appendChild(card);
-            });
+                return card;
+            };
+
+            // Filtrar y agregar ofertas a Europa
+            data.filter(oferta => oferta.categoría.includes('Europa') && oferta.oferta)
+                .forEach(oferta => europaContainer.appendChild(createCard(oferta)));
+
+            // Filtrar y agregar ofertas a Argentina
+            data.filter(oferta => oferta.categoría.includes('Argentina') && oferta.oferta)
+                .forEach(oferta => argentinaContainer.appendChild(createCard(oferta)));
         })
         .catch(error => console.error('Error al cargar el JSON:', error));
 });
